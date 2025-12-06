@@ -44,9 +44,4 @@ monthly_bill_prediction/
 5. Train-test split  
 6. Train model  
 7. Evaluate metrics  
-8. Predict monthly bill for new data  
-
-
-new_data[scale_cols] = scaler.transform(new_data[scale_cols])
-prediction = model.predict(new_data)
-print("Predicted monthly bill:", prediction[0])
+8. Predict monthly bill for new data
